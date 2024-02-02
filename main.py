@@ -10,7 +10,6 @@ from fastapi.responses import JSONResponse
 from fastapi.encoders import jsonable_encoder
 
 
-
 app = FastAPI()
 
 origins = [
@@ -29,6 +28,7 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
 
 # Defining path operation for root endpoint
 @app.get("/")
