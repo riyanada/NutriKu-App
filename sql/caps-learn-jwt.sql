@@ -11,7 +11,7 @@
  Target Server Version : 100519 (10.5.19-MariaDB-log)
  File Encoding         : 65001
 
- Date: 03/02/2024 00:55:25
+ Date: 03/02/2024 02:56:22
 */
 
 SET NAMES utf8mb4;
@@ -36,7 +36,7 @@ CREATE TABLE `foods`  (
   `createdAt` datetime NULL DEFAULT NULL,
   `updatedAt` datetime NULL DEFAULT NULL,
   PRIMARY KEY (`id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 42 CHARACTER SET = latin1 COLLATE = latin1_swedish_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 43 CHARACTER SET = latin1 COLLATE = latin1_swedish_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of foods
@@ -79,7 +79,8 @@ INSERT INTO `foods` VALUES (35, 'Tahu', 'tahu', 35, 0, 2.62, 1.36, 2.23, 19, '-'
 INSERT INTO `foods` VALUES (36, 'Roti', 'roti', 264, 0, 1.3, 55.81, 9.61, 239, '-', 'Tepung, Gula, Garam, Soda Kue, Ragi', '2024-02-02 19:23:49', NULL);
 INSERT INTO `foods` VALUES (37, 'Tempe', 'tempe', 193, 0, 10.8, 9.39, 18.54, 412, '-', 'Kedelai', '2024-02-02 19:23:49', NULL);
 INSERT INTO `foods` VALUES (39, 'Gado Gado', 'gado', 193, 0, 10.8, 9.39, 18.54, 412, '-', 'Kedelai', '2024-02-02 19:23:49', NULL);
-INSERT INTO `foods` VALUES (41, 'Rendang', 'rendang', 456, 34, 12, 53, 34, 0, '-', 'Telur, Santan, Garam, Nangka Muda, Gula Merah, Cabai, Ayam, Nasi', '2024-02-02 19:23:49', NULL);
+INSERT INTO `foods` VALUES (41, 'Rendang', 'rendang', 400, 100, 25, 15, 5, 400, '-', 'Telur, Santan, Garam, Nangka Muda, Gula Merah, Cabai, Ayam, Nasi', '2024-02-02 19:23:49', NULL);
+INSERT INTO `foods` VALUES (42, 'Telur', 'telur', 68, 186, 4.8, 0.6, 5.5, 69, '-', '-', NULL, NULL);
 
 -- ----------------------------
 -- Table structure for roles
